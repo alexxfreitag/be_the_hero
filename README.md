@@ -60,5 +60,5 @@ Atualiza o servidor sempre que o código sofrer alguma alteração, sem necessit
 
 - Comando para iniciar o servidor ao invés do "node index.js"
   ```
-  nodemon index.js
+  npm start
   ```
