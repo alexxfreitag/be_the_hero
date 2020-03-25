@@ -62,3 +62,21 @@ Atualiza o servidor sempre que o código sofrer alguma alteração, sem necessit
   ```
   npm start
   ```
+
+#### Knex
+Permite usar o _query builder_ para vários bancos.
+
+- Instalação   
+  ```
+  npm install knex
+  ```
+
+- Instalação banco a ser usado (no caso, SQLite)
+  ```
+  npm install sqlite3
+  ```
+
+- Criação de arquivo para configuração do banco
+  ```
+  npx knex init
+  ```
