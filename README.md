@@ -1,82 +1,47 @@
-# Semana OmniStack 11.0
+<h1 align="center">
+    Be the <a style="color: red">HERO</a>
+</h1>
 
-## Backend
-
-### Métodos HTTP
-**GET**: busca/lista informações  
-**POST**: envia/cadastra informações  
-**PUT**: atualiza informações  
-**DELETE**: remove informações
+<h4 align="center">
+  A ReactJs, React Native and NodeJs application to connect people who wants to help with organizations who needs help.
+</h4>
 
 
-#### Express
+<p align="center">
+  <a href="#rocket-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#warning-prerequisites">Prerequisites</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#information_source-how-to-use">How To Use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-license">License</a>
+</p>
 
-Usado para criação de rotas, middlewares e outras funções.
+## :rocket: Technologies
 
-- Instalação
+### Backend
+
+- [NodeJs](https://nodejs.org/en/)
+- [Express](https://expressjs.com/)
+- [Nodemon](https://nodemon.io/)
+- [Knex](http://knexjs.org/)
+- [Cors](https://github.com/expressjs/cors)
   
-  ```
-  npm install express
-  ```
+## :information_source: How To Use
 
-- Uso
-  ```javascript
-  //importa o express
-  const express = require('express');
+To clone and run this application, you'll need Git, Node.js and NPM installed on your computer. From your command line:
 
-  //inicia o servidor
-  const app = express();
+```bash
+# Clone this repository
+$ git clone https://github.com/alexxfreitag/be_the_hero
 
-  //necessário para reconhecer envio do corpo da requisição em formato JSON
-  app.use(express.json());
+# Go into the repository
+$ cd be_the_hero
 
-  //exemplo de requisição GET
-  app.get('/', (req, res) => {
-    return res.json({
-      evento: 'Semana OmniStack 11.0',
-      aluno: 'Alex Freitag'
-    })
-  });
+# Install dependencies
+$ npm install
 
-  //define a porta na qual o servidor deve apontar
-  app.listen(3333);
-  ```
+# Run the server
+$ npm start
+```
 
-#### Nodemon
+---
 
-Atualiza o servidor sempre que o código sofrer alguma alteração, sem necessitar reiniciar toda vez.
-
-- Instalação (como dependência de desenvolvimento)
-  ```
-  npm install nodemon -D
-  ```
-
-- Script no package.json para iniciar o servidor com comando específico
-  ```json
-  "scripts": {
-    "start": "nodemon index.js"
-  }
-  ```
-
-- Comando para iniciar o servidor ao invés do "node index.js"
-  ```
-  npm start
-  ```
-
-#### Knex
-Permite usar o _query builder_ para vários bancos.
-
-- Instalação   
-  ```
-  npm install knex
-  ```
-
-- Instalação banco a ser usado (no caso, SQLite)
-  ```
-  npm install sqlite3
-  ```
-
-- Criação de arquivo para configuração do banco
-  ```
-  npx knex init
-  ```
+Made with ♥ by Alex Freitag 
