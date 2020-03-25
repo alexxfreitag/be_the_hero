@@ -1,5 +1,5 @@
 <h1 align="center">
-    Be the <a style="color: red">HERO</a>
+    Be the HERO
 </h1>
 
 <h4 align="center">
