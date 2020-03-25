@@ -18,7 +18,9 @@ module.exports = {
       id,
       name,
       email,
-      whatsapp, city, uf,
+      whatsapp,
+      city,
+      uf,
     });
     
     return res.json({ id });
