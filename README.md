@@ -19,6 +19,7 @@
 ### Frontend
 
  - [ReactJs](https://pt-br.reactjs.org/)
+ - [React Hooks](https://pt-br.reactjs.org/docs/hooks-intro.html)
  - [Axios](https://github.com/axios/axios)
  - [React Icons](https://react-icons.netlify.com/#/)
  - [React Router Dom](https://reacttraining.com/react-router/web/guides/quick-start)
