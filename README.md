@@ -15,6 +15,13 @@
 - [Nodemon](https://nodemon.io/)
 - [Knex](http://knexjs.org/)
 - [Cors](https://github.com/expressjs/cors)
+
+### Frontend
+
+ - [ReactJs](https://pt-br.reactjs.org/)
+ - [Axios](https://github.com/axios/axios)
+ - [React Icons](https://react-icons.netlify.com/#/)
+ - [React Router Dom](https://reacttraining.com/react-router/web/guides/quick-start)
   
 ## :information_source: How To Use
 
