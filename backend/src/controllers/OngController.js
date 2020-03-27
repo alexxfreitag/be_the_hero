@@ -24,5 +24,22 @@ module.exports = {
     });
     
     return res.json({ id });
+  },
+
+  async update(req, res) {
+    const { id } = req.params;
+    const { name, email, whatsapp, city, uf} = req.body;
+    
+    await connection('ongs')
+    .where('id', '=', id)
+    .update({
+      name,
+      email,
+      whatsapp,
+      city,
+      uf
+    });
+
+    return res.status(204).send();
   }
 }
