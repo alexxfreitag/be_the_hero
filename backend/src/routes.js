@@ -11,6 +11,7 @@ const routes = express.Router();
 routes.post('/sessions', SessionController.create);
 
 routes.get('/ongs', OngController.index);
+
 routes.post('/ongs', celebrate({
   [Segments.BODY]: Joi.object().keys({
     name: Joi.string().required(),
@@ -23,7 +24,11 @@ routes.post('/ongs', celebrate({
 
 routes.put('/ongs/:id', OngController.update);
 
-routes.get('/profile', ProfileController.index);
+routes.get('/profile', celebrate({
+  [Segments.HEADERS]: Joi.object().keys({
+    authorization: Joi.string().required(),
+  }),
+}), ProfileController.index);
 
 routes.get('/incidents', IncidentController.index);
 routes.post('/incidents', IncidentController.create);
