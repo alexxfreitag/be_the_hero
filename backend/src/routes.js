@@ -25,9 +25,9 @@ routes.post('/ongs', celebrate({
 routes.put('/ongs/:id', OngController.update);
 
 routes.get('/profile', celebrate({
-  [Segments.HEADERS]: Joi.object().keys({
+  [Segments.HEADERS]: Joi.object({
     authorization: Joi.string().required(),
-  }),
+  }).unknown(),
 }), ProfileController.index);
 
 routes.get('/incidents', IncidentController.index);
