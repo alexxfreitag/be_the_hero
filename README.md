@@ -1,5 +1,5 @@
 <h1 align="center">
-    Be the HERO
+    <img alt="Be The Hero" width="250px" src="images/logo.svg"  />
 </h1>
 
 <h4 align="center">
@@ -8,7 +8,7 @@
 
 ## :rocket: Technologies
 
-### Backend
+### :closed_lock_with_key: Backend
 
 - [NodeJs](https://nodejs.org/en/)
 - [Express](https://expressjs.com/)
@@ -16,7 +16,7 @@
 - [Knex](http://knexjs.org/)
 - [Cors](https://github.com/expressjs/cors)
 
-### Frontend
+### :computer: Frontend
 
  - [ReactJs](https://pt-br.reactjs.org/)
  - [React Hooks](https://pt-br.reactjs.org/docs/hooks-intro.html)
@@ -24,7 +24,7 @@
  - [React Icons](https://react-icons.netlify.com/#/)
  - [React Router Dom](https://reacttraining.com/react-router/web/guides/quick-start)
 
-### Mobile
+### :iphone: Mobile
 
  - [React Native](https://reactnative.dev/)
  - [Expo](https://expo.io/)
