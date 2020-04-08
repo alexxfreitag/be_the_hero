@@ -23,6 +23,14 @@
  - [Axios](https://github.com/axios/axios)
  - [React Icons](https://react-icons.netlify.com/#/)
  - [React Router Dom](https://reacttraining.com/react-router/web/guides/quick-start)
+
+### Mobile
+
+ - [React Native](https://reactnative.dev/)
+ - [Expo](https://expo.io/)
+ - [React Hooks](https://pt-br.reactjs.org/docs/hooks-intro.html)
+ - [Axios](https://github.com/axios/axios)
+ - [React Navigation](https://reactnavigation.org/)
   
 ## :information_source: How To Use
 
@@ -34,6 +42,9 @@ $ git clone https://github.com/alexxfreitag/be_the_hero
 
 # Go into the repository
 $ cd be_the_hero
+
+# Go into the backend directory
+$ cd backend
 
 # Install dependencies
 $ npm install
