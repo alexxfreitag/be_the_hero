@@ -34,7 +34,7 @@
   
 ## :information_source: How To Use
 
-To clone and run this application, you'll need Git, Node.js and NPM installed on your computer. From your command line:
+To clone and run this application, you'll need Git, Node.js, NPM and Expo CLI installed on your computer. From your command line:
 
 ```bash
 # Clone this repository
@@ -43,14 +43,16 @@ $ git clone https://github.com/alexxfreitag/be_the_hero
 # Go into the repository
 $ cd be_the_hero
 
-# Go into the backend directory
-$ cd backend
+# Go into the backend/frontend/mobile directory and install dependencies
+$ cd backend/ && npm install
+$ cd ../frontend/ && npm install
+$ cd ../mobile/ && npm install
 
-# Install dependencies
-$ npm install
-
-# Run the server
+# Run (backend and frontend)
 $ npm start
+
+#Run (mobile)
+$ expo start
 ```
 
 ---
