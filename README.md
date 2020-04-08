@@ -51,7 +51,7 @@ $ cd ../mobile/ && npm install
 # Run (backend and frontend)
 $ npm start
 
-#Run (mobile)
+# Run (mobile)
 $ expo start
 ```
 
